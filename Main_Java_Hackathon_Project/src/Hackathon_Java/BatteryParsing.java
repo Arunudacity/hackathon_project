@@ -35,7 +35,7 @@ public class BatteryParsing {
    // if array has any data
    if (array.length > 1) {
     
-	// excluding the spaces
+    // excluding the spaces
     array[0] = array[0].trim();
 
     // if it equals Uid u0a202 
