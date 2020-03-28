@@ -24,18 +24,18 @@ public class BatteryParsing {
   // string variable used to store foreground string
   String Foreground = "";
 
-  String st1;
+  String st;
 
   // loop runs until it reaches the end of the file
-  while ((st1 = br.readLine()) != null) {
+  while ((st = br.readLine()) != null) {
    
    // splitting the line into two half as before the colon in array[0] and after the colon in array [1] 
-   String[] array = st1.split(":");
+   String[] array = st.split(":");
 
    // if array has any data
    if (array.length > 1) {
     
-    // excluding the spaces
+	// excluding the spaces
     array[0] = array[0].trim();
 
     // if it equals Uid u0a202 
