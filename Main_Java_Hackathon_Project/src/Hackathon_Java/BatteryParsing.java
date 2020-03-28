@@ -24,7 +24,7 @@ public class BatteryParsing {
   // string variable used to store foreground string
   String Foreground = "";
 
-  String st1, st2;
+  String st1;
 
   // loop runs until it reaches the end of the file
   while ((st1 = br.readLine()) != null) {
