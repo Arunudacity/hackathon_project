@@ -73,7 +73,7 @@ public class BatteryParsing {
   obj.put("Battery_percentage", Battery_percentage);
 
   //writing the json object into json file
-  FileWriter file1 = new FileWriter("C:\\Users\\USER\\eclipse-workspce\\arun\\BatteryParsing\\src\\Hackathon_Java\\output.json");
+  FileWriter file1 = new FileWriter("C:\\Users\\USER\\eclipse-workspce\\arun\\BatteryParsing\\output.json");
   file1.write(obj.toString());
   file1.flush();
   file1.close();
